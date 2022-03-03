@@ -52,7 +52,7 @@ class MySpider(SitemapSpider):
         # Date published
         date = raw_post.css('time[itemprop="datePublished"]').xpath('@datetime').extract_first()
         # Content of post
-        text = raw_post.css('div[itemprop="articleBody"]').xpath('string()').extract()
+        text = raw_post.css('div[itemprop="articleBody"]').xpath('string()').extract_first()
         # Likes and comments
         raw_interaction_stats = raw_post.css('div[itemprop="interactionStatistic"]')
         for raw_interaction_stat in raw_interaction_stats:

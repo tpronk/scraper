@@ -26,21 +26,21 @@ The JSON below is some example output (as produced by the spider or processing s
     "user": "jane",
     "position": 1,
     "date": "2016-11-03T19:45:23Z",
-    "text": ["How much is 1 + 1?"],
+    "text": "How much is 1 + 1?",
     "likes": 0,
     "comments": 1
   }, {
     "user": "fatima",
     "position": 2,
     "date": "2016-11-04T11:17:12Z",
-    "text": ["More than 1, definitely"],
+    "text": "More than 1, definitely",
     "likes": 1,
     "comments": 1
   }, {
     "user": "jane",
     "position": 3,
     "date": "2016-11-05T15:58:43Z",
-    "text": ["Thanks!"],
+    "text": "Thanks!",
     "likes": 0,
     "comments": 1
   }],
