@@ -15,7 +15,7 @@ This scraper can be used for [Discourse fora](https://www.discourse.org/). It co
 * Topics with many posts may be spread across multiple pages, with separate links to each in the sitemap, for example: `/topic-name/123` and `/topic_name/123?page=2`. The processing script takes care of merging multiple pages into topics.
 
 # Example output
-The JSON below is some example output produced by [processing script](process_data.py)
+The JSON below is some example output (as produced by the spider or processing script).
 ```json
 [{
   "answer_user": "fatima",
