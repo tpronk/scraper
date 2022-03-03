@@ -1,5 +1,5 @@
 # Introduction
-This scraper can be used for [https://www.discourse.org/](https://www.discourse.org/). It consists of two scripts
+This scraper can be used for [Discourse fora](https://www.discourse.org/). It consists of two scripts
 1. A [Scrapy SitemapSpider](https://docs.scrapy.org/en/latest/topics/spiders.html#sitemapspider) that downloads each topic and post of a given discourse forum
 2. A [processing script](process_data.py) that merges topic IDs that are spread across multiple pages
 
