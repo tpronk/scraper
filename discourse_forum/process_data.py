@@ -20,7 +20,7 @@ topics = []
 # Report
 print('Found ' + str(len(data)) + ' rows of data')
 # Properties to copy from row to topic
-properties_to_copy = ['topic_title', 'topic_category', 'topic_tags']
+properties_to_copy = ['topic_id', 'topic_title', 'topic_category', 'topic_tags']
 answer_info_to_copy = ['answer_user', 'answer_date', 'answer_position', 'answered']
 # Unique topic IDs
 import numpy
