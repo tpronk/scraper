@@ -2,4 +2,9 @@
 env
 */.scrapy
 */data
-*/*/__pycache
+*/*/__pycache__
+
+# Short-hand scripts that only work on my machine
+install.bat
+activate.lnk
+discourse_forum/crawl.bat
