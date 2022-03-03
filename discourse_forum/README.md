@@ -9,7 +9,7 @@ This scraper can be used for [Discourse fora](https://www.discourse.org/). It co
 3. Once scraping has completed, process the parsed data by running `py process_data.py`
 
 # Development
-* The files belonging to this scraper were created by running the following command in the scraper directory: `scrapy startproject discourse_forum`. 
+* As a starting point, I created a scaffold Scrapy project by running: `scrapy startproject discourse_forum`. 
 * The HTML that Discourse delivers to crawlers/scrapers/spiders is different from what it delivers to a standard web-browser.
 * Obtaining answer information (i.e. "Solved by jdoe in Post #3") required parsing somewhat arcane JSON.
 * Topics with many posts may be spread across multiple pages, with separate links to each in the sitemap, for example: `/topic-name/123` and `/topic_name/123?page=2`. The processing script takes care of merging multiple pages into topics.
