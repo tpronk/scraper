@@ -1,0 +1,5 @@
+# Virtual environments, cache, data etc.
+env
+*/.scrapy
+*/data
+*/*/__pycache

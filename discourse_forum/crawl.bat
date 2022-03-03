@@ -1,0 +1,1 @@
+scrapy crawl discourse_forum -L WARNING -O data/data.pickle
